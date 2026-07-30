@@ -2,8 +2,8 @@ name: Generate GitHub Profile Animations
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight
-  workflow_dispatch: # Allows you to run it manually
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -12,10 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Check out the repository
       - uses: actions/checkout@v3
 
-      # 2. Generate the Snake Animation
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -25,14 +23,17 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      # 3. Generate the 3D Isometric Calendar
       - name: Generate 3D Contribution Calendar
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      # 4. Push the generated files back to a branch called "output"
+      - name: Move 3D files to dist
+        run: |
+          mkdir -p dist/profile-3d-contrib
+          cp -r profile-3d-contrib/* dist/profile-3d-contrib/
+
       - name: Push generated files
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
