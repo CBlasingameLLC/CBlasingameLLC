@@ -14,9 +14,9 @@ I am an Electrical Engineering student bridging the gap between physical hardwar
 
 Whether I'm modeling delta-neutral options strategies, configuring deployment pipelines, or CADing parts for a custom portable computer, I love building complex systems from the ground up.
 
-🔭 &nbsp;**Currently working on:** AI trading and betting market agents via Claude, and engineering a rugged, modular Raspberry Pi cyberdeck.  
+🔭 &nbsp;**Currently working on:** AI trading and betting market agents via Claude, and engineering a modular Raspberry Pi cyberdeck.  
 🌱 &nbsp;**Currently learning:** The PWA to Capacitor iOS App Store pipeline.  
-⚡ &nbsp;**Fun fact:** I'm an Eagle Scout, I run an online publication called *The Junto Press*, and I probably have something running on my 3D printer right now.  
+⚡ &nbsp;**Fun fact:** I'm an Eagle Scout, I run an online publication called *The Junto Press*  
 
 ### 🛠️ Tech & Tools
 
@@ -77,3 +77,13 @@ Whether I'm modeling delta-neutral options strategies, configuring deployment pi
 
 ---
 <p align="center"><i>⭐️ From <a href="https://github.com/CBlasingameLLC">CBlasingameLLC</a></i></p>
+
+### 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CBlasingameLLC/CBlasingameLLC/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+</p>
+
+### 🏙️ 3D Contribution Calendar
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CBlasingameLLC/CBlasingameLLC/main/profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" />
+</p>
