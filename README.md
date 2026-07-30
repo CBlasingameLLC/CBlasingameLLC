@@ -16,7 +16,7 @@ Whether I'm modeling delta-neutral options strategies, configuring deployment pi
 
 🔭 &nbsp;**Currently working on:** AI trading and betting market agents via Claude, and engineering a rugged, modular Raspberry Pi cyberdeck.  
 🌱 &nbsp;**Currently learning:** The PWA to Capacitor iOS App Store pipeline.  
-⚡ &nbsp;**Fun fact:** I'm an Eagle Scout, I run an online publication called *Junto Press*, and I probably have something running on my 3D printer right now.  
+⚡ &nbsp;**Fun fact:** I'm an Eagle Scout, I run an online publication called *The Junto Press*, and I probably have something running on my 3D printer right now.  
 
 ### 🛠️ Tech & Tools
 
@@ -39,18 +39,18 @@ Whether I'm modeling delta-neutral options strategies, configuring deployment pi
 
 <p align="center">
   <a href="https://github.com/CBlasingameLLC/thejuntopress">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=YOUR_TRADING_REPO_NAME&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="The Junto Press News Outlet" width="48%" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=thejuntopress&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="The Junto Press News Outlet" width="48%" />
   </a>
   <a href="https://github.com/CBlasingameLLC/JPII_Website">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=YOUR_PWA_REPO_NAME&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="St. John Paul II Catholic Campus Ministry Website" width="48%" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=JPII_Website&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="St. John Paul II Catholic Campus Ministry Website" width="48%" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/CBlasingameLLC/blackjack-app">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=YOUR_CYBERDECK_REPO_NAME&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="Blackjack Card Counting PWA" width="48%" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=blackjack-app&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="Blackjack Card Counting PWA" width="48%" />
   </a>
   <a href="https://github.com/CBlasingameLLC/poker-trainer">
-    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=YOUR_JUNTO_PRESS_REPO&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="Poker Trainer PWA" width="48%" />
+    <img src="https://github-readme-stats-five-sigma-99.vercel.app/api/pin/?username=CBlasingameLLC&repo=poker-trainer&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000" alt="Poker Trainer PWA" width="48%" />
   </a>
 </p>
 
