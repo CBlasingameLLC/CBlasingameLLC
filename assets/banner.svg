@@ -1,0 +1,80 @@
+<svg width="900" height="170" viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cayl Blasingame">
+  <defs>
+    <style>
+      .trace { stroke: #2ea043; stroke-width: 1.4; fill: none; opacity: 0.4; }
+      .trace-dim { stroke: #2ea043; stroke-width: 1.2; fill: none; opacity: 0.22; }
+      .via { fill: #2ea043; opacity: 0.55; }
+      .chip { stroke: #2ea043; stroke-width: 1.3; fill: none; opacity: 0.4; }
+      .name { font-family: 'Courier New', Consolas, monospace; font-weight: 700; fill: #2ea043; }
+      .tagline { font-family: 'Courier New', Consolas, monospace; fill: #7d8590; }
+      .prompt { font-family: 'Courier New', Consolas, monospace; fill: #2ea043; opacity: 0.85; }
+    </style>
+  </defs>
+
+  <!-- circuit traces: left side -->
+  <g class="trace">
+    <path d="M0,28 H120 V58 H230" />
+    <path d="M0,150 H70 V118 H175 V150 H255" />
+    <path d="M60,0 V22 H150 V0" />
+    <path d="M0,85 H45" />
+  </g>
+  <g class="trace-dim">
+    <path d="M0,110 H95 V90 H190" />
+    <path d="M100,170 V145 H205" />
+  </g>
+
+  <!-- circuit traces: right side (mirrored) -->
+  <g class="trace">
+    <path d="M900,28 H780 V58 H670" />
+    <path d="M900,150 H830 V118 H725 V150 H645" />
+    <path d="M840,0 V22 H750 V0" />
+    <path d="M900,85 H855" />
+  </g>
+  <g class="trace-dim">
+    <path d="M900,110 H805 V90 H710" />
+    <path d="M800,170 V145 H695" />
+  </g>
+
+  <!-- chips -->
+  <g class="chip">
+    <rect x="32" y="8" width="28" height="16" rx="2" />
+    <rect x="800" y="128" width="28" height="16" rx="2" />
+  </g>
+
+  <!-- vias -->
+  <g class="via">
+    <circle cx="120" cy="28" r="3.2" />
+    <circle cx="230" cy="58" r="3.2" />
+    <circle cx="70" cy="150" r="3.2" />
+    <circle cx="175" cy="118" r="3.2" />
+    <circle cx="255" cy="150" r="3.2" />
+    <circle cx="150" cy="22" r="3.2" />
+    <circle cx="95" cy="110" r="2.6" />
+    <circle cx="190" cy="90" r="2.6" />
+    <circle cx="205" cy="145" r="2.6" />
+
+    <circle cx="780" cy="28" r="3.2" />
+    <circle cx="670" cy="58" r="3.2" />
+    <circle cx="830" cy="150" r="3.2" />
+    <circle cx="725" cy="118" r="3.2" />
+    <circle cx="645" cy="150" r="3.2" />
+    <circle cx="750" cy="22" r="3.2" />
+    <circle cx="805" cy="110" r="2.6" />
+    <circle cx="710" cy="90" r="2.6" />
+    <circle cx="695" cy="145" r="2.6" />
+  </g>
+
+  <!-- name -->
+  <text x="450" y="82" text-anchor="middle" class="name" font-size="40" letter-spacing="3">CAYL BLASINGAME</text>
+
+  <!-- tagline -->
+  <text x="450" y="112" text-anchor="middle" class="tagline" font-size="14" letter-spacing="1.5">ELECTRICAL ENGINEERING &#183; AI TRADING SYSTEMS &#183; CUSTOM HARDWARE</text>
+
+  <!-- terminal prompt line with blinking cursor -->
+  <text x="450" y="140" text-anchor="middle" class="prompt" font-size="14">
+    <tspan>root@cyberdeck:~$ building_things --always</tspan>
+  </text>
+  <rect x="629" y="128" width="8" height="14" class="via">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1.1s" repeatCount="indefinite" />
+  </rect>
+</svg>
